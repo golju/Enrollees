@@ -1,0 +1,32 @@
+/* line 1, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\000031}}
+.site-footer {
+  background: rgba(255, 255, 255, 0);
+  height: 140px;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+/* line 8, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\000038}}
+.site-footer #logo_volsu {
+  float: left;
+  padding-right: 10px;
+  margin-right: 15px;
+  border-right: 1px solid #000;
+}
+/* line 15, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\0000315}}
+.site-footer .footer-write-up {
+  width: 300px;
+  height: 140px;
+  margin: 0 auto;
+}
+/* line 20, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\0000320}}
+.site-footer .footer-write-up a {
+  height: 140px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}

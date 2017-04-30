@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
+/* line 2, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\000032}}
+.tooltip {
+  position: absolute;
+  z-index: 999;
+  width: 2.2em;
+  height: 2.2em;
+  cursor: pointer;
+}
+/* line 17, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000317}}
+.tooltip:first-child {
+  top: 20%;
+  left: 20%;
+}
+/* line 22, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000322}}
+.tooltip:nth-child(2) {
+  top: 50%;
+  left: 10%;
+}
+/* line 27, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000327}}
+.tooltip:nth-child(3) {
+  top: 40%;
+  left: 50%;
+}
+/* line 32, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000332}}
+.tooltip:nth-child(4) {
+  top: 70%;
+  left: 70%;
+}
+/* Tooltip */
+/* line 39, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000339}}
+.tooltip-content {
+  position: absolute;
+  background: #e35583;
+  z-index: 9999;
+  width: 200px;
+  height: 0px;
+  bottom: 50%;
+  margin-bottom: -1em;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+/* line 60, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000360}}
+.tooltip-west .tooltip-content {
+  left: 4em;
+  -webkit-transform-origin: -2em 50%;
+  transform-origin: -2em 50%;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, 30deg);
+  transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, 30deg);
+}
+/* line 68, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000368}}
+.tooltip-east .tooltip-content {
+  right: 4em;
+  -webkit-transform-origin: calc(102%) 50%;
+  transform-origin: calc(102%) 50%;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, -30deg);
+  transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, -30deg);
+}
+/* line 76, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000376}}
+.tooltip:hover .tooltip-content {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(0, 0, 0, 0);
+  transform: translate3d(0, 50%, 0) rotate3d(0, 0, 0, 0);
+  pointer-events: auto;
+}
+/* Gap "bridge" and arrow */
+/* line 85, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000385}}
+.tooltip-content::before,
+.tooltip-content::after {
+  content: '';
+  position: absolute;
+}
+/* line 91, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000391}}
+.tooltip-content::before {
+  height: 100%;
+  width: 3em;
+}
+/* line 96, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000396}}
+.tooltip-content::after {
+  width: 2em;
+  height: 2em;
+  top: 50%;
+  margin: -1em 0 0;
+  background: url(../img/tooltip2.svg) no-repeat center center;
+  background-size: 100%;
+}
+/* line 105, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003105}}
+.tooltip-west .tooltip-content::before,
+.tooltip-west .tooltip-content::after {
+  right: 99%;
+  /* because of FF, otherwise we have a gap */
+
+}
+/* line 110, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003110}}
+.tooltip-east .tooltip-content::before,
+.tooltip-east .tooltip-content::after {
+  left: 99%;
+  /* because of FF, otherwise we have a gap */
+
+}
+/* line 115, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003115}}
+.tooltip-east .tooltip-content::after {
+  -webkit-transform: scale3d(-1, 1, 1);
+  transform: scale3d(-1, 1, 1);
+}

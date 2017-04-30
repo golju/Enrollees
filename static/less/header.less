@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'main_font';
+    src: url('../font/main_font/l9kxzdgv-webfont.eot');
+    src: url('../font/main_font/l9kxzdgv-webfont.eot?#iefix') format('embedded-opentype'), url('../font/main_font/l9kxzdgv-webfont.woff2') format('woff2'), url('../font/main_font/l9kxzdgv-webfont.woff') format('woff'), url('../font/main_font/l9kxzdgv-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@main_font: main_font;
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+* { font-family: @main_font; }
+
+header {
+    height: 240px;
+    background: rgb(67,156,202); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(67,156,202,1) 0%, rgba(68,156,202,1) 49%, rgba(204,233,234,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(67,156,202,1)), color-stop(49%,rgba(68,156,202,1)), color-stop(100%,rgba(204,233,234,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(67,156,202,1) 0%,rgba(68,156,202,1) 49%,rgba(204,233,234,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(67,156,202,1) 0%,rgba(68,156,202,1) 49%,rgba(204,233,234,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(67,156,202,1) 0%,rgba(68,156,202,1) 49%,rgba(204,233,234,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(67,156,202,1) 0%,rgba(68,156,202,1) 49%,rgba(204,233,234,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#439cca', endColorstr='#cce9ea',GradientType=0 ); /* IE6-9 */
+
+    .university {
+        overflow: auto;
+
+        h3 {
+            float: right;
+            color: #FFF;
+            margin: 12px 0 0 0;
+        }
+    }
+
+    nav {
+        overflow: auto;
+        height: 30px;
+
+        ul {
+            float: right;
+            margin: 0px;
+
+            li {
+                float: right;
+                margin: 0 5px 0 0;
+                padding-right: 5px;
+                display: inline-block;
+                border-right: 1px solid #FFF;
+                &:first-child { border-right: 1px solid transparent; padding-right: 0px; margin-right: 0;}
+
+                a {
+                    color: #FFF;
+                    list-style-type: none;
+                    text-decoration: none;
+                    overflow: auto;
+                    font-size: 20px;
+                    border-bottom: 1px solid #FFF;
+
+
+                    &.active, &:hover {
+                        color: #FF0;
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        margin: 1px;
+    }
+
+    position: relative;
+
+    .img_container {
+        background: url('../img/univer.png') no-repeat;
+        background-position: center;
+        height: 128px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .white_strip {
+        height: 17px;
+        width: 100%;
+        background: #FFF;
+        border-top: 1px solid #000;
+        position: absolute;
+        bottom: 0px;
+    }
+}

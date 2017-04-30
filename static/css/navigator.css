@@ -1,0 +1,31 @@
+/* line 1, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000031}}
+.navigator {
+  margin: 10px;
+}
+/* line 4, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000034}}
+.navigator #data h3 {
+  margin: 0;
+}
+/* line 6, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000036}}
+.navigator #data input#button {
+  margin-top: 10px;
+}
+/* line 8, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000038}}
+.navigator #data label {
+  cursor: pointer;
+}
+/* line 11, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\0000311}}
+.navigator span#result {
+  margin-top: 10px;
+  padding: 10px;
+}
+/* line 16, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\0000316}}
+.navigator h2 {
+  font-size: 14pt;
+}

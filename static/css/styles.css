@@ -1,0 +1,680 @@
+@import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
+@font-face {
+  font-family: 'main_font';
+  src: url('../font/main_font/l9kxzdgv-webfont.eot');
+  src: url('../font/main_font/l9kxzdgv-webfont.eot?#iefix') format('embedded-opentype'), url('../font/main_font/l9kxzdgv-webfont.woff2') format('woff2'), url('../font/main_font/l9kxzdgv-webfont.woff') format('woff'), url('../font/main_font/l9kxzdgv-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 11, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000311}}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 16, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000316}}
+* {
+  font-family: main_font;
+}
+/* line 18, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000318}}
+header {
+  height: 240px;
+  background: #439cca;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #439cca 0%, #449cca 49%, #cce9ea 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #439cca), color-stop(49%, #449cca), color-stop(100%, #cce9ea));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #439cca 0%, #449cca 49%, #cce9ea 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #439cca 0%, #449cca 49%, #cce9ea 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #439cca 0%, #449cca 49%, #cce9ea 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #439cca 0%, #449cca 49%, #cce9ea 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#439cca', endColorstr='#cce9ea', GradientType=0);
+  /* IE6-9 */
+
+  position: relative;
+}
+/* line 29, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000329}}
+header .university {
+  overflow: auto;
+}
+/* line 32, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000332}}
+header .university h3 {
+  float: right;
+  color: #FFF;
+  margin: 12px 0 0 0;
+}
+/* line 39, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000339}}
+header nav {
+  overflow: auto;
+  height: 30px;
+}
+/* line 43, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000343}}
+header nav ul {
+  float: right;
+  margin: 0px;
+}
+/* line 47, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000347}}
+header nav ul li {
+  float: right;
+  margin: 0 5px 0 0;
+  padding-right: 5px;
+  display: inline-block;
+  border-right: 1px solid #FFF;
+}
+/* line 53, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000353}}
+header nav ul li:first-child {
+  border-right: 1px solid transparent;
+  padding-right: 0px;
+  margin-right: 0;
+}
+/* line 55, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000355}}
+header nav ul li a {
+  color: #FFF;
+  list-style-type: none;
+  text-decoration: none;
+  overflow: auto;
+  font-size: 20px;
+  border-bottom: 1px solid #FFF;
+}
+/* line 64, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000364}}
+header nav ul li a.active,
+header nav ul li a:hover {
+  color: #FF0;
+}
+/* line 72, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000372}}
+header h1 {
+  color: #FFF;
+  text-align: center;
+  margin: 1px;
+}
+/* line 80, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000380}}
+header .img_container {
+  background: url('../img/univer.png') no-repeat;
+  background-position: center;
+  height: 128px;
+  position: relative;
+  z-index: 1;
+}
+/* line 88, /home/yulia/sites/abitur/public_html/static/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/header\.less}line{font-family:\0000388}}
+header .white_strip {
+  height: 17px;
+  width: 100%;
+  background: #FFF;
+  border-top: 1px solid #000;
+  position: absolute;
+  bottom: 0px;
+}
+@font-face {
+  font-family: 'main_font';
+  src: url('../font/main_font/l9kxzdgv-webfont.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 10, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000310}}
+body {
+  margin: 0px;
+}
+/* line 13, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000313}}
+body main {
+  background: #76ae6c;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #76ae6c 1%, #76ae6c 7%, #76ae6c 7%, #76ae6c 7%, #76ae6c 8%, #b5da9a 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #76ae6c), color-stop(7%, #76ae6c), color-stop(7%, #76ae6c), color-stop(7%, #76ae6c), color-stop(8%, #76ae6c), color-stop(100%, #b5da9a));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #76ae6c 1%, #76ae6c 7%, #76ae6c 7%, #76ae6c 7%, #76ae6c 8%, #b5da9a 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #76ae6c 1%, #76ae6c 7%, #76ae6c 7%, #76ae6c 7%, #76ae6c 8%, #b5da9a 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #76ae6c 1%, #76ae6c 7%, #76ae6c 7%, #76ae6c 7%, #76ae6c 8%, #b5da9a 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #76ae6c 1%, #76ae6c 7%, #76ae6c 7%, #76ae6c 7%, #76ae6c 8%, #b5da9a 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#76ae6c', endColorstr='#b5da9a', GradientType=0);
+  /* IE6-9 */
+
+}
+/* line 25, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000325}}
+body main .map {
+  position: relative;
+  height: 290px;
+  width: 900px;
+  background: url('../img/doroga.png') no-repeat;
+  background-position: center;
+  background-size: 600px 320px;
+  overflow: auto;
+  margin: 0 auto;
+}
+/* line 35, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000335}}
+body main .map .item {
+  height: 50%;
+  width: 50%;
+}
+/* line 40, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000340}}
+body main .map .item .circle {
+  background: rgba(255, 255, 255, 0.95);
+  line-height: 120px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 120px;
+  width: 270px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.84);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.84);
+  box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.84);
+  position: relative;
+}
+/* line 55, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000355}}
+body main .map .item .circle span {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+/* line 61, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000361}}
+body main .map .item .circle a {
+  color: #000;
+  font-size: 20px;
+  display: block;
+  border-radius: 50%;
+}
+/* line 70, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000370}}
+body main .map #courses {
+  float: left;
+}
+/* line 73, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000373}}
+body main .map #courses .circle {
+  float: right;
+  position: relative;
+  left: -20px;
+}
+/* line 80, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000380}}
+body main .map #choice {
+  float: right;
+}
+/* line 83, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000383}}
+body main .map #choice .circle {
+  position: relative;
+  right: -20px;
+}
+/* line 89, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000389}}
+body main .map #direction {
+  float: left;
+}
+/* line 94, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\0000394}}
+body main .map #direction .circle {
+  float: right;
+  line-height: 140px;
+  height: 140px;
+  width: 290px;
+  margin-top: -40px;
+  position: relative;
+  right: 60px;
+}
+/* line 105, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003105}}
+body main .map #documents {
+  float: right;
+}
+/* line 110, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003110}}
+body main .map #documents .circle {
+  line-height: 140px;
+  height: 140px;
+  width: 290px;
+  margin-top: -40px;
+  position: relative;
+  left: 60px;
+}
+/* line 124, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003124}}
+body .scroll-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 99999;
+  cursor: pointer;
+}
+/* Wobble Vertical */
+@-webkit-keyframes hvr-wobble-vertical {
+  /* line 137, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003137}}
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  /* line 142, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003142}}
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  /* line 147, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003147}}
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  /* line 152, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003152}}
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  /* line 157, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003157}}
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  /* line 162, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003162}}
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  /* line 169, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003169}}
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  /* line 174, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003174}}
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  /* line 179, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003179}}
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  /* line 184, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003184}}
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  /* line 189, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003189}}
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  /* line 194, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003194}}
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 200, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003200}}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 210, /home/yulia/sites/abitur/public_html/static/less/main_page.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/main_page\.less}line{font-family:\00003210}}
+.hvr-wobble-vertical:hover,
+.hvr-wobble-vertical:focus,
+.hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* line 2, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\000032}}
+.tooltip {
+  position: absolute;
+  z-index: 999;
+  width: 2.2em;
+  height: 2.2em;
+  cursor: pointer;
+}
+/* line 17, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000317}}
+.tooltip:first-child {
+  top: 20%;
+  left: 20%;
+}
+/* line 22, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000322}}
+.tooltip:nth-child(2) {
+  top: 50%;
+  left: 10%;
+}
+/* line 27, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000327}}
+.tooltip:nth-child(3) {
+  top: 40%;
+  left: 50%;
+}
+/* line 32, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000332}}
+.tooltip:nth-child(4) {
+  top: 70%;
+  left: 70%;
+}
+/* Tooltip */
+/* line 39, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000339}}
+.tooltip-content {
+  position: absolute;
+  background: #e35583;
+  z-index: 9999;
+  width: 200px;
+  height: 0px;
+  bottom: 50%;
+  margin-bottom: -1em;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+/* line 60, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000360}}
+.tooltip-west .tooltip-content {
+  left: 4em;
+  -webkit-transform-origin: -2em 50%;
+  transform-origin: -2em 50%;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, 30deg);
+  transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, 30deg);
+}
+/* line 68, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000368}}
+.tooltip-east .tooltip-content {
+  right: 4em;
+  -webkit-transform-origin: calc(102%) 50%;
+  transform-origin: calc(102%) 50%;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, -30deg);
+  transform: translate3d(0, 50%, 0) rotate3d(1, 1, 1, -30deg);
+}
+/* line 76, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000376}}
+.tooltip:hover .tooltip-content {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(0, 0, 0, 0);
+  transform: translate3d(0, 50%, 0) rotate3d(0, 0, 0, 0);
+  pointer-events: auto;
+}
+/* Gap "bridge" and arrow */
+/* line 85, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000385}}
+.tooltip-content::before,
+.tooltip-content::after {
+  content: '';
+  position: absolute;
+}
+/* line 91, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000391}}
+.tooltip-content::before {
+  height: 100%;
+  width: 3em;
+}
+/* line 96, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\0000396}}
+.tooltip-content::after {
+  width: 2em;
+  height: 2em;
+  top: 50%;
+  margin: -1em 0 0;
+  background: url(../img/tooltip2.svg) no-repeat center center;
+  background-size: 100%;
+}
+/* line 105, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003105}}
+.tooltip-west .tooltip-content::before,
+.tooltip-west .tooltip-content::after {
+  right: 99%;
+  /* because of FF, otherwise we have a gap */
+
+}
+/* line 110, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003110}}
+.tooltip-east .tooltip-content::before,
+.tooltip-east .tooltip-content::after {
+  left: 99%;
+  /* because of FF, otherwise we have a gap */
+
+}
+/* line 115, /home/yulia/sites/abitur/public_html/static/less/tooltips.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/tooltips\.less}line{font-family:\00003115}}
+.tooltip-east .tooltip-content::after {
+  -webkit-transform: scale3d(-1, 1, 1);
+  transform: scale3d(-1, 1, 1);
+}
+/* line 1, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\000031}}
+main .item_2 {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background: #FFF;
+  border-radius: 5px;
+  padding: 20px;
+  display: none;
+  box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.83);
+}
+/* line 11, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000311}}
+main .item_2.open {
+  display: block;
+}
+/* line 15, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000315}}
+main .item_2 h1 {
+  margin: 0;
+  color: #2b8149;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 45px;
+}
+/* line 22, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000322}}
+main .item_2 span {
+  font-size: 16pt;
+}
+/* line 24, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000324}}
+main .item_2 a {
+  color: #2b8149;
+}
+/* line 29, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000329}}
+main .item_2 .description {
+  margin: 20px 0 20px 0;
+  width: 960px;
+}
+/* line 35, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000335}}
+main .item_2 .description article {
+  width: 650px;
+  text-align: justify;
+  margin-left: 200px;
+}
+/* line 40, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000340}}
+main .item_2 .description article h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+/* line 47, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000347}}
+main .item_2 .first_course {
+  background: url('../img/imit.jpg') no-repeat;
+  padding-bottom: 10px;
+}
+/* line 52, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000352}}
+main .item_2 .second_course {
+  background: url('../img/imeif2.jpg') no-repeat;
+  padding-bottom: 10px;
+}
+/* line 56, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000356}}
+main .item_2 .third_course {
+  background: url('../img/filol.jpg') no-repeat;
+}
+/* line 59, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000359}}
+main .item_2 .fourth_course {
+  background: url('../img/ien.jpg') no-repeat;
+}
+/* line 62, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000362}}
+main .item_2 .fifth_course {
+  background: url('../img/ip.jpg') no-repeat;
+}
+/* line 65, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000365}}
+main .item_2 .sixth_course {
+  background: url('../img/priorit_techn.jpg') no-repeat;
+}
+/* line 69, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000369}}
+main .item_2 .description2 {
+  width: 960px;
+  font-size: 16pt;
+}
+/* line 73, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000373}}
+main .item_2 .description3 {
+  width: 960px;
+  margin-bottom: 10px;
+}
+/* line 76, /home/yulia/sites/abitur/public_html/static/less/item_2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/item_2\.less}line{font-family:\0000376}}
+main .item_2 .description3 .exam {
+  padding: 10px;
+  font-size: 14pt;
+}
+/* line 1, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000031}}
+.navigator {
+  margin: 10px;
+}
+/* line 4, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000034}}
+.navigator #data h3 {
+  margin: 0;
+}
+/* line 6, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000036}}
+.navigator #data input#button {
+  margin-top: 10px;
+}
+/* line 8, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\000038}}
+.navigator #data label {
+  cursor: pointer;
+}
+/* line 11, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\0000311}}
+.navigator span#result {
+  margin-top: 10px;
+  padding: 10px;
+}
+/* line 16, /home/yulia/sites/abitur/public_html/static/less/navigator.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/navigator\.less}line{font-family:\0000316}}
+.navigator h2 {
+  font-size: 14pt;
+}
+/* line 1, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\000031}}
+.site-footer {
+  background: rgba(255, 255, 255, 0);
+  height: 140px;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+/* line 8, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\000038}}
+.site-footer #logo_volsu {
+  float: left;
+  padding-right: 10px;
+  margin-right: 15px;
+  border-right: 1px solid #000;
+}
+/* line 15, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\0000315}}
+.site-footer .footer-write-up {
+  width: 300px;
+  height: 140px;
+  margin: 0 auto;
+}
+/* line 20, /home/yulia/sites/abitur/public_html/static/less/footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/yulia\/sites\/abitur\/public_html\/static\/less\/footer\.less}line{font-family:\0000320}}
+.site-footer .footer-write-up a {
+  height: 140px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
